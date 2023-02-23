@@ -1,0 +1,62 @@
+.TodoFrom{
+    background-color: #6e98a6;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #6e98a6d5;
+}
+
+.titleLabel{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 30px;
+    text-shadow: 0 0 2px black;
+}
+
+.TextBox{
+    margin: 0 35px;
+    height: 70px;
+    width: 380px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.ButtonContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.ButtonCancel{
+    background-color: #e9f2f2;
+    border: none;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px black;
+    transition: 0.3s;
+}
+
+.ButtonCancel:hover{
+    background-color: rgb(255, 38, 38);
+    color: white;
+}
+
+.ButtonSubmit{
+    background-color: #e9f2f2;
+    border: none;
+    font-size: 1.5rem;
+    padding: 10px 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px black;
+    transition: 0.3s;
+}
+
+.ButtonSubmit:hover{
+    background-color: #ff8b38;
+    color: white;
+}
